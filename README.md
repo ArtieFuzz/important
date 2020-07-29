@@ -2,11 +2,10 @@ Welcome to Glitch
 =================
 Made this on glitch
 -------------------
-Learnt some new stuff
+Learnt something new 
 -------------------
 
 - How to Create HTML5 Videos
-- Using the Nav bar ¯\_(ツ)_/¯
 
 -------------------
 
