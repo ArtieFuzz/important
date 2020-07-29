@@ -11,4 +11,5 @@ Learnt something new
 
 I don't care if you use this site as a template just don't mark it as your own
 
-\ ゜o゜)ノ
+-------------------
+The first tag is just there to mark the first ever commit \ ゜o゜)ノ
