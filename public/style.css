@@ -1,0 +1,18 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+video {
+  width: 100%;
+}
+wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
