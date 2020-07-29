@@ -1,4 +1,4 @@
-Welcome to Glitch
+Heya!
 =================
 Made this on glitch
 -------------------
