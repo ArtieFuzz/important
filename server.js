@@ -7,10 +7,18 @@ const express = require("express");
 const owoify = require("owoifyx");
 const app = express();
 
+// Make sure to put this directly after you define your app
+// dont change if you want http -> https
+// if you want https -> http change !req.secure to req.secure and https to http
+app.set('trust proxy', true); // <- required
+app.use((req, res, next) => {
+  if(!req.secure) return res.redirect('https://' + req.get('host') + req.url);
+  next();
+});
+
 // make all the files in 'public' available
 // https://expressjs.com/en/starter/static-files.html
 app.use(express.static("public"));
-app.use(express.static("videos"));
 
 // https://expressjs.com/en/starter/basic-routing.html
 app.get("/", (request, response) => {
